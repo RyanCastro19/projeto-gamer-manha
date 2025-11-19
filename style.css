@@ -111,6 +111,9 @@ width: 250px;
 .card-texto{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 .card{
@@ -122,8 +125,15 @@ width: 250px;
     height: 15px;
     width: 15px;
     border-radius: 100%;
+   
+    
 }
-
+.branco{
+    background-color: #ffffff;
+}
+.rosa{
+    background-color: #4c544c;
+}
 .vermelho{
     background-color: red;
 }
@@ -142,4 +152,20 @@ width: 250px;
 
 .verde{
     background-color: green;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+   padding: 5px;
+   gap: 5px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;  /* Ele dar uma distância igual entre os elementos */
+   
 }
