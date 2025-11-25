@@ -173,7 +173,7 @@ width: 250px;
 .banner-xbox{
     background-image: url("./assents/x-box.png");
     height: 450px;
-    width: 850px;
+    width: 950px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -188,4 +188,16 @@ width: 250px;
 .banner-xbox{
     display: flex;
     justify-content: end;
+}
+
+.xbox-caixa{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 20px;
+  
+
 }
